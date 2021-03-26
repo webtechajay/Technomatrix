@@ -3,7 +3,7 @@
     <!-- Brand Logo -->
     <a href="{{url('admin/dashboard')}}" class="brand-link">
       <img src="{{asset('assets/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Tecnomatrix</span>
+      <span class="brand-text font-weight-light">Technomatrix</span>
     </a>
 
     <!-- Sidebar -->
