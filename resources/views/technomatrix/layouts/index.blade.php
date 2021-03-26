@@ -68,6 +68,28 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
+                @if($message = Session::get('success'))
+                <div class="alert alert-success alert-block">
+                    <strong>{{$message}}</strong>
+                </div>
+                @endif
+                
+                        @if($errors->get('contact_name'))
+                        <strong class="text-white btn btn-danger" style="color: #fff;">{{$errors->first('contact_name')}}</strong><br>
+                        @endif
+                        <br>
+                        @if($errors->get('contact_email'))
+                        <strong class="text-white btn btn-danger">{{$errors->first('contact_email')}}</strong><br>
+                        @endif
+                       <br>
+                        @if($errors->get('contact_number'))
+                        <strong class="text-white btn btn-danger">{{$errors->first('contact_number')}}</strong><br>
+                        @endif
+                        <br>
+                        @if($errors->get('message'))
+                        <strong class="text-white btn btn-danger">{{$errors->first('message')}}</strong><br>
+                        @endif
+                        <br>
                 <div class="masthead-subheading">Welcome To Technomatrix!</div>
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
@@ -335,26 +357,24 @@
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
-                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                <form  name="sentMessage" novalidate="novalidate" action="{{url('store_contact')}}" method="post">
+                    {{ csrf_field() }}
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
-                                <p class="help-block text-danger"></p>
+                                <input class="form-control" id="name" name="contact_name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
+                                
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
-                                <p class="help-block text-danger"></p>
+                                <input class="form-control" name="contact_email" id="email" type="text" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
                             </div>
                             <div class="form-group mb-md-0">
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
-                                <p class="help-block text-danger"></p>
+                                <input class="form-control" name="contact_number" id="phone" type="text" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
+                                <textarea  class="form-control" name="message" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
                             </div>
                         </div>
                     </div>

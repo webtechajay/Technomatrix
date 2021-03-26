@@ -27,6 +27,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/','IndexController@index');
 
+Route::post('store_contact','IndexController@store');
+
 
 
 //Backend
