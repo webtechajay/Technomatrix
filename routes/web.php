@@ -22,7 +22,15 @@ Route::get('error','HomeController@error');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+//Frontend
+// =================================
 
+Route::get('/','IndexController@index');
+
+
+
+//Backend
+// ====================================
 
 Route::group(['middleware'=>['is_admin']], function(){
 
