@@ -100,32 +100,32 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Providing building clocks for success</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa-building fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="my-3">Co-working Space</h4>
+                        <p class="text-muted">Flexible workspace solutions with all safety standards. Coming soon in Lower Parel. Modern office design located in a premium corporate park, enquire now to pre-book. Secure Key Card Access. 24x7 Utilities. Unlimited WiFi. Fully-Serviced. Modern Workspace.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa-coffee fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="my-3">Kaffe</h4>
+                        <p class="text-muted">We all love our kullad chais, but you know what they say... Coffee ka kaam sirf coffee hi kar sakta hai. So here's where you gotta head to get your artisanal coffee hit, coupled with a great (AKA cosy) ambience.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa-home fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="my-3">Apartments</h4>
+                        <p class="text-muted">World's Largest Brokerage Free Real Estate Portal. Connecting Tenants and Owners Directly. Choose From 1000s of Owner Listings. World's Largest Brokerage Free Property Portal. Stop Paying Brokers. Talk to Owners Directly. BrokerFree Listings.</p>
                     </div>
                 </div>
             </div>
