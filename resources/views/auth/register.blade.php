@@ -2,12 +2,16 @@
 
 @section('content')
 
-<div class="container">
+<div class="container" style="margin-top: 50px;">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
-
+                <!-- <div class="card-header">{{ __('Register') }}</div> -->
+                <div>
+                    <a href="{{url('/')}}">
+                        <img id="image" src="{{asset('front_end/assets/img/logo.png')}}" width="20%" style="margin: auto;">
+                    </a>
+                </div>
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
                         @csrf
@@ -103,8 +107,22 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
+                            @if (Route::has('register'))
+                                
+                                    <a class="btn btn-link" href="{{ route('login') }}">{{ __('Sign In') }}</a>
+                            @endif
                             </div>
                         </div>
+
+                       
+                         
+                               
+
+                               
+
+                            
+                        
+
                     </form>
                 </div>
             </div>

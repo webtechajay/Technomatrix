@@ -2,11 +2,18 @@
 
 @section('content')
 
-<div class="container">
+
+
+<div class="container" style="margin-top: 100px;">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+                <!-- <div class="card-header">{{ __('Sign In') }}</div> -->
+                <div>
+                    <a href="{{url('/')}}">
+                        <img id="image" src="{{asset('front_end/assets/img/logo.png')}}" width="20%" style="margin: auto;">
+                    </a>
+                </div>
                     @if ($message = Session::get('error'))
                     <div class="alert alert-danger alert-block">
                     <button type="button" class="close" data-dismiss="alert">×</button> 
@@ -68,6 +75,11 @@
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
+
+                            @if (Route::has('register'))
+                                
+                                    <a class="btn btn-link" href="{{ route('register') }}">{{ __('SignUp Now') }}</a>
+                            @endif
                             </div>
                         </div>
                     </form>
