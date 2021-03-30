@@ -267,7 +267,7 @@ Fully Furnished & Serviced.</div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Tecnomatix is a comprehensive portfolio of digital manufacturing solutions that help you to digitalize manufacturing and the process of transforming innovative ideas and raw materials into real products.</p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Technomatix is a comprehensive portfolio of digital manufacturing solutions that help you to digitalize manufacturing and the process of transforming innovative ideas and raw materials into real products.</p></div>
                 </div>
             </div>
         </section>
