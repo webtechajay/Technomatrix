@@ -74,7 +74,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">To be honest.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -83,11 +83,12 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/01-thumbnail.jpg')}}" alt="" />
+                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/p1.jpg')}}" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                                <div class="portfolio-caption-heading">PRIVATE OFFICE</div>
+                                <div class="portfolio-caption-subheading text-muted">Accommodating Big & Small Teams.
+Fully Furnished & Serviced.</div>
                             </div>
                         </div>
                     </div>
@@ -97,11 +98,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/02-thumbnail.jpg')}}" alt="" />
+                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/p2.jpeg')}}" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                                <div class="portfolio-caption-heading">PRIVATE OPEN DESK</div>
+                                <div class="portfolio-caption-subheading text-muted">Fully Furnished & Serviced. Work From Your Dedicated Desk With No Operational Hassle.</div>
                             </div>
                         </div>
                     </div>
@@ -111,11 +112,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/03-thumbnail.jpg')}}" alt="" />
+                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/p3.jpeg')}}" alt="" style="height:265px" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
+                                <div class="portfolio-caption-heading">SMART KAFFE</div>
+                                <div class="portfolio-caption-subheading text-muted">A Venice Street Style Cafe, with a sky fall ceiling with a menu full of varieties, awaits you!</div>
                             </div>
                         </div>
                     </div>
@@ -125,11 +126,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/04-thumbnail.jpg')}}" alt="" />
+                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/p4.jpg')}}" alt="" style="height:240px;width: 350px;" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                                <div class="portfolio-caption-heading">HOUR/DAY PASS</div>
+                                <div class="portfolio-caption-subheading text-muted">The benefits of co-working, minus the commitment! Live and work at the Kaffe and have a taste.</div>
                             </div>
                         </div>
                     </div>
@@ -139,11 +140,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/05-thumbnail.jpg')}}" alt="" />
+                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/p5.jpeg')}}" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                                <div class="portfolio-caption-heading">Non sea face Apartment</div>
+                                <div class="portfolio-caption-subheading text-muted"> to provide the best luxury experience to consumers online in terms of information.</div>
                             </div>
                         </div>
                     </div>
@@ -153,11 +154,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/06-thumbnail.jpg')}}" alt="" />
+                                <img class="img-fluid" src="{{asset('front_end/assets/img/portfolio/p6.jpg')}}" style="height:235px" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                                <div class="portfolio-caption-heading">sea face Apartment</div>
+                                <div class="portfolio-caption-subheading text-muted">To provide good view with minimum coast !</div>
                             </div>
                         </div>
                     </div>
@@ -169,7 +170,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">To be honest.</h3>
                 </div>
                 <ul class="timeline">
                     <li>
@@ -179,7 +180,7 @@
                                 <h4>2009-2011</h4>
                                 <h4 class="subheading">Our Humble Beginnings</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Every big castle was once started with a single block; despise no small beginnings. · Strong enough to make holes in the rock ...</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -189,7 +190,7 @@
                                 <h4>March 2011</h4>
                                 <h4 class="subheading">An Agency is Born</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Purpose-Driven. Experiences. and Enterprise. Commerce. Combining creative, content, and commerce to drive change. Imagine, build, and run !</p></div>
                         </div>
                     </li>
                     <li>
@@ -199,7 +200,7 @@
                                 <h4>December 2012</h4>
                                 <h4 class="subheading">Transition to Full Service</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Make a plan. A robust transition plan should always be the first step in any project and every plan should always have a timetable.!</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -209,7 +210,7 @@
                                 <h4>July 2014</h4>
                                 <h4 class="subheading">Phase Two Expansion</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Expansion is the phase of the business cycle where real gross domestic product (GDP) grows for two or more consecutive quarters, moving from a trough to a peak. Expansion is typically accompanied by a rise in employment, consumer confidence, and equity markets and is also referred to as an economic recovery.!</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -335,7 +336,7 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/01-full.jpg')}}" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/p1.jpg')}}" alt="" />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>Date: January 2020</li>
@@ -365,7 +366,7 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/02-full.jpg')}}" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/p2.jpeg')}}" alt="" />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>Date: January 2020</li>
@@ -395,7 +396,7 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/03-full.jpg')}}" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/p3.jpeg')}}" alt="" />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>Date: January 2020</li>
@@ -425,7 +426,7 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/04-full.jpg')}}" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/p4.jpg')}}" alt="" />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>Date: January 2020</li>
@@ -455,7 +456,7 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/05-full.jpg')}}" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/p5.jpeg')}}" alt="" />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>Date: January 2020</li>
@@ -485,7 +486,7 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/06-full.jpg')}}" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="{{asset('front_end/assets/img/portfolio/p6.jpg')}}" alt="" />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>Date: January 2020</li>
