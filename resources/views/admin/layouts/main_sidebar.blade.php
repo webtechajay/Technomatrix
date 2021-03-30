@@ -225,6 +225,30 @@
               </li>
             </ul>
           </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-tasks "></i>
+              <p>
+                Roles
+                <i class="fas fa-angle-left right"></i>
+                <!-- <span class="badge badge-info right">6</span> -->
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{url('admin/createRole')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add Role</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{url('admin/viewRole')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>View Role</p>
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

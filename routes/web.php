@@ -100,5 +100,14 @@ Route::post('admin/updateVisitor/{visitor}', 'VisitorController@update');
 Route::get('admin/destroyVisitor/{visitor}', 'VisitorController@destroy');
 Route::get('admin/showVisitor/{visitor}', 'VisitorController@show');
 
+//Roles Model
+Route::get('admin/viewRole','RolesController@index');
+Route::get('admin/createRole','RolesController@create');
+Route::post('admin/storeRole','RolesController@store');
+Route::get('admin/editRole/{roles}','RolesController@edit');
+Route::post('admin/updateRole/{roles}','RolesController@update');
+Route::get('admin/deleteRole/{roles}','RolesController@destroy');
+Route::get('admin/showRole/{roles}','RolesController@show');
+
 });
 
