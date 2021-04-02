@@ -10,7 +10,7 @@
         <div class="col-md-12">
         <div class="card card-primary">
         <div class="card-header">
-                <h3 class="card-title">View Company</h3>
+                <h3 class="card-title">View Members</h3>
               </div>
              </div>
               <!-- /.card-header -->

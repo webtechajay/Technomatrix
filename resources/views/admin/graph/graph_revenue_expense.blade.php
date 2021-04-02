@@ -61,7 +61,7 @@
 
   @foreach($revenue_expense_graph as $key=>$val)
 
-    { y: '{{$val->expense_month_year}}', a: {{$val->revenue_amount}}, b: {{$val->expense_total}} },
+    { y: '{{$val->month_year}}', a: {{$val->revenue_amount}}, b: {{$val->expense_total}} },
 
     @endforeach
   ],

@@ -22,9 +22,9 @@ class AdminController extends Controller
     public function graphRevenuExpenseIndex()
     {
 
-		$revenue_expense_graph = DB::select("SELECT revenue_amount,expense_total ,expense_month_year FROM Tecnomatrix.revenue_masters
-			left join expenses
-			on revenue_masters.month_year = expenses.expense_month_year;");
+		$revenue_expense_graph = DB::select("SELECT revenue_amount,month_year,expenses.expense_total FROM Technomatrix.revenue_masters
+left join expenses
+on revenue_masters.month_year = expenses.expense_month_year");
 		// dd($revenue_expense_graph);
 		$a =[];
 		foreach ($revenue_expense_graph as $key => $value) {
