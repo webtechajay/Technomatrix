@@ -55,7 +55,7 @@ class LoginController extends Controller
                 // dd("dd");
                 return redirect('/admin/dashboard');
             }else{
-                return redirect('/home');
+                return redirect('/');
             }
         }else{
             return redirect('/login')->with('error','Email-Address And Password Are Wrong.');
